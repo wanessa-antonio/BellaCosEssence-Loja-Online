@@ -1,0 +1,139 @@
+body {
+  background-color: black;
+  color: white; 
+}
+
+.barra {
+  background-color: #f2f2f2; 
+  width: 100%; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.navbar .nav-link {
+  color:#ff66cc; 
+  font-size: 18px; 
+  background-color: #f2f2f2; 
+  width: 100%; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+
+.destaque {
+  background-color: black; 
+  color:black; 
+}
+
+
+h1 {
+  color: #ff66cc; 
+  font-size: 40px; 
+  text-align: center; 
+  font-family: "Dancing Script", cursive; 
+  }
+
+.barra {
+  color: #ff66cc; 
+}
+
+.produto-estilo {
+  background-color: black;
+  color: #ff66cc; 
+}
+
+
+#produtos h3 {
+  text-align: center; 
+  font-family: "Dancing Script", cursive; 
+  font-size: 36px; 
+}
+
+#quem-somos legend {
+  text-align: center; 
+  font-family: Arial, sans-serif; 
+  font-family: "Dancing Script", cursive; 
+  font-size: 36px; 
+}
+
+#quem-somos {
+  background-color: #ff66cc;
+  color: white; 
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-md-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+} 
+
+
+#nosso-time {
+  background-color: #0c7a01;
+}
+
+
+#nosso-time h2 {
+  text-align: center; 
+  font-family: "Dancing Script", cursive; 
+  font-size: 36px; 
+ }
+
+#nosso-time .row {
+  justify-content: center; 
+}
+
+#nosso-time figure {
+  margin-top: 3%; 
+  margin-bottom: 3%; 
+  margin-left: 35%; 
+  margin-right: 0; 
+}
+
+.container {
+    display: flex;
+  }
+  
+  .card {
+    width: 18rem;
+    margin-right: 1px;
+  }
+  
+
+  .fotos-arredondadas { 
+    border-radius: 50%;
+    width: 140px; 
+    height: 140px; 
+}
+
+.carousel-inner {
+  width: 100%; 
+  height: 100%; 
+  justify-content: center;
+  align-items: center;
+}
+ 
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.rodape {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #888888;
+}
+  
+    
+  
+    
+ 
